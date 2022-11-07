@@ -1,0 +1,14 @@
+Password changing
+Login into your account and then change password?
+Change your password into IneuR0n#42 and hit the Enter key
+Explain what happen and give screenshot?
+Try again to change password but use like password 1234 or abcd
+Explain what happen and give screenshot?
+Try again to change password but now don’t use any password just hit Enter key
+Explain what happen and give screenshot?
+
+
+ANS=>1: Chnge the password with sudo passwd root and it is demanding for the new password to chnge the password ...
+after making changes says all authentication token updated successfully.
+2: I have chnged the password again for 1234 and it is saying Bad password , password shorter than 8 characters but updated the password with
+3: Tried agian to change the password with just enter , it says BAD password : no Password supplied , authentication token manipulation error ..
