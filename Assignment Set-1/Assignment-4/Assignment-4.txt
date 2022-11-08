@@ -1,0 +1,20 @@
+Go to cd /etc and type ls
+Take screenshot and explain what files you have seeing?
+Take screenshot and explain what different output you found compare to previous command you used?
+ans:=> we are doing cd /etc it is contain in the root  directory, it stores   configuration files and directories, some log files. /home is a default directory for the user.image reference(774)
+
+Then type ls -al and hit Enter key
+Take screenshot and explain what new file or directory you found?
+
+
+
+ans:=> It list all the entries in the directory including entries begin with . . img reference(775)
+
+Then use ls -i and hit Enter key
+Now see what different output its shows and take screenshot?
+and :=>  It display the i-node number in the first column of files and directory img reference(776) 
+
+Then use ls –help and see other options about ls command
+Explore it and try with other attribute we can use with ls command
+
+ans:=> It will not run it give error syntax or something beacuse the main cmd is ls --help , it give us the docs and cmds if we stuck somewhere it gives u the informaton about the cmds image referenc(777)

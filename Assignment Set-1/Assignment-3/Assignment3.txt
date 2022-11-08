@@ -1,0 +1,21 @@
+Enter the command cd / and then ls and then hit Enter key
+Take screenshot and explain what output we got?
+ans:=> This cmd is used to change directory to the root directory, and the root directory is first directory in the file system. The ouput we got is it is pointing to the temp directory and with ls giving the / .referecne  image(765)
+
+
+Enter the command now cd /home and then hit Enter key
+Do ls, provide screenshot and explain what is /home directory used for?
+ans:=> It is taking us to Home directory with cd /home and with ls giving us the username ... / referecne image(766)
+Home directory is a directo commonly given to the user on a netwrok or linux or unix variant operating system with home directory we can store files , login scripts , userinforamtion etc.
+
+Enter cd .. and hit Enter key [ Note: here we have space after cd then use double dot]
+Check what happen and give screenshot?
+and:=> It goes one step back of the present directory cd .. is used for going back to the present directory . referecne image(768).
+
+Now enter cd /var/www/html and then type cd and hit Enter key
+Explain what happen and give screenshot?
+ans:=> It is saying no such file exist or directory , what cd does is it changes the directory but in this case there is no direactory inside var/www/html for example var is the directory inside var www should be the present and inside www html file should be present but there is no such direcotyr in the var directory that's why it is giving this error.reference(770)and for var expample(771)
+
+Now type cd /root and then hit Enter key
+Do ls, check any output we have on screen if yes then take screenshot?
+ans:=> Permission denied ! output image reference(772) it is giving this error beacuse user dont have the execute power to the root. check img refence(773)

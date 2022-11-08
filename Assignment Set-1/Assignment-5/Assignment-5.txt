@@ -1,0 +1,12 @@
+Assignment-5 
+Know where you are and where you working	
+Here we use pwd, cd and ls as combine task to understand where you working on terminal and how you can switch from one directory to another one.
+ Open terminal after restart the linux
+Check which location you working, type pwd and take screenshot
+Now use cd /var and hit Enter key
+Do ls, and see what output comes, give screenshot?
+Do explore other help options of each command to learn more other things we can do with these commands
+
+ans :=> pwd is used for knowing which directory u r in and cd for chaning the directory and ls for listing the directory image reference(779)
+ans :=> cd /var goes to the directory which holds the variable data.. img refercene(780)
+ans :=> list information about the files img refercene(781)
