@@ -1,0 +1,40 @@
+1. Create a file like nano file1.txt
+Q:1): Edit some data and then save the file
+
+ans:1=> First i have to created a file with nano file1.txt, after that I have wriiten some text or data to it after that i have save with CTRL+O then CTRL+X for exit and then run with cat file1.txt with file name nano file1.txt
+reference image output(889.png)
+
+2. Now we will copy date from file1 to new file2
+o cp file1.txt file2.txt
+o Then see the output of file2.txt, cat file2.txt
+o Give screenshot
+
+ans 2: we use cp command for copying the file data from one file to another file cp file1.txt file2.txt we can do also cp -v file1.txt file2.txt for verbose output to see we -v do . so after that i have check the permisson to the fiels and change the permission to chmod 777 to execute and after running file2.txt cat file2.txt we get file1.txt data in file2.txt and
+output image reference(891 and 892 png).
+
+ 3.Now we will move the file2.txt to new folder /home
+o mv file2.txt /home
+o Then go to home directory and check ls, file exits or not?
+o Given screenshot
+
+ans 3:  For moving file to directory we have to use mv filname and directory  but this is giving some permission error beacuse we don't have a permission to that so we have to with sudo with root user and with ls it is now showing anything but we have to do wiht ls -l /home for checking the file it exist or not. 
+screenshot is in reference(893.png)
+
+3. Then we create a new file3.txt and file4.txt in home directory and add
+content in it.
+o Now do echo “Hello I am newline” > file3.txt and provide the
+output of file3.txt
+o Now do echo “Hello I am newline” >> file4.txt and provide the
+output of file4.txt
+o Tell the different between both step you follow and the reason
+behind it
+
+ans 3: In echo with > whatever is present will be replaced by a text or data in a provided file with > it will replace the original text or data.>
+and with echo with >> whatever is present will be appended by a text or data in a provided file >> for example echo "hello it">> file4.txt it will be appended by these input in the file wiht single > it the whole data will be replaced by the provided input in the echo .
+screenshot present(894)and (895) for output.
+
+5. For remove a file or directory you can use the below two commands
+o To delete a file – rm <any_filename>
+o To delete a directory -rmdir <any_directory>
+
+ans 5 ) to delete a fiel we can do -rm file.txt and to delete a directory we can do -rmdir /dir screenshot image reference(896)and (897)
