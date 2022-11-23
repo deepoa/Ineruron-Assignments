@@ -1,0 +1,46 @@
+ Q:1)Create an IAM user with username ofyour own wish and grantadministrator policy?
+ ans 1) i have created a Iam user with name deepesh and grant the administrator policy to that . referecne  image(911 and 912)
+
+ Q2): Hello students, in this assignmentyou need to prepare adevelopers team of avengers.- Create 3 IAM users of avengers and assign them in developer’s groups withIAM policy?
+ ans2)create three iam user and assingened in the avengers group. referecne image(913)
+   
+Q3:- Define a condition in policy for expirationlike"DateGreaterThan":{"aws:CurrentTime":"2020-04-01T00:00:00Z"},"DateLessThan":{"aws:CurrentTime":"2020-06-30T23:59:59Z"}Define the span of 4 months as per your wishAssignment 
+ans3): create a policy for expiration   referecne image(914,915,916,917,918,919)
+
+
+
+Q4:- Prepare 15 authentic MCQ questionsrelated to IAM.Assignment 
+
+Q1: What is AWS Identity and Access Management (IAM)?
+ans1:) IAM provides fine-grained access control across all of AWS. With IAM, you can control access to services and resources under specific conditions. Use IAM policies to manage permissions for your workforce and systems to ensure least privilege. IAM is offered at no additional charge.
+Q2: How does IAM work and what can I do with it?
+ans 2:)IAM provides authentication and authorization for AWS services. A service evaluates if an AWS request is allowed or denied. Access is denied by default and is allowed only when a policy explicitly grants access. You can attach policies to roles and resources to control access across AWS
+Q3: What are least-privilege permissions?
+ans 3:) When you set permissions with IAM policies, grant only the permissions required to perform a task. This practice is known as  granting least privilege. You can apply least-privilege permissions in IAM by defining the actions that can be taken on specific resources under specific conditions.
+Q4: How do I get started with IAM?
+ans:4) To get started using IAM to manage permissions for AWS services and resources, create an IAM role and grant it permissions. For workforce users, create a role that can be assumed by your identity provider. For systems, create a role that can be assumed by the service you are using, such as Amazon EC2 or AWS Lambda. After you create a role, you can attach a policy to the role to grant permissions that meet your needs. When you are just starting out, you might not know the specific permissions you need, so you can start with broader permissions. AWS managed policies provide permissions to help you get started and are available in all AWS accounts. Then, reduce permissions further by defining customer managed policies specific to your use cases. You can create and manage policies and roles in the IAM console, or via AWS APIs or the AWS CLI.
+Q5: What are IAM roles and how do they work?
+ans:5) AWS Identity and Access Management (IAM) roles provide a way to access AWS by relying on temporary security credentials. Each role has a set of permissions for making AWS service requests, and a role is not associated with a specific user or group. Instead, trusted entities such as identity providers or AWS services assume roles.
+Q6: Why should I use IAM roles?
+ans 6):You should use IAM roles to grant access to your AWS accounts by relying on short-term credentials, a security best practice. Authorized identities, which can be AWS services or users from your identity provider, can assume roles to make AWS requests. To grant permissions to a role, attach an IAM policy to it
+Q7: What are IAM users and should I still be using them?
+ans :7)IAM users are identities with long-term credentials. You might be using IAM users for workforce users. In this case, AWS recommends using an identity provider and federating into AWS by assuming roles. You also can use roles to grant cross-account access to services and features such as AWS Lambda functions. In some scenarios, you might require IAM users with access keys that have long-term credentials with access to your AWS account. For these scenarios, AWS recommends using IAM access last used information to rotate credentials often and remove credentials that are not being used.
+Q8: What are IAM policies?
+ans 8:)IAM policies define permissions for the entities you attach them to. For example, to grant access to an IAM role, attach a policy to the role. The permissions defined in the policy determine whether requests are allowed or denied. You also can attach policies to some resources, such as Amazon S3 buckets, to grant direct, cross-account access. And you can attach policies to an AWS organization or organizational unit to restrict access across multiple accounts. AWS evaluates these policies when an IAM role makes a request
+Q9: How do I grant access to services and resources by using IAM?
+ans 9:)To grant access to services and resources by using AWS Identity and Access Management (IAM), attach IAM policies to roles or resources. You can start by attaching AWS managed policies, which are owned and updated by AWS and are available in all AWS accounts. If you know the specific permissions required for your use cases, you can create customer managed policies and attach them to roles. Some AWS resources provide a way to grant access by defining a policy attached to resources, such as Amazon S3 buckets. These resource-based policies allow you to grant direct, cross-account access to the resources they are attached to
+Q10: How do I create IAM policies?
+ans 10:)To assign permissions to a role or resource, create a policy, which is a JavaScript Object Notation (JSON) document that defines permissions. This document includes permissions statements that grant or deny access to specific service actions, resources, and conditions. After you create a policy, you can attach it to one or more AWS roles to grant permissions to your AWS account. To grant direct, cross-account access to resources, such as Amazon S3 buckets, use resource-based policies. Create your policies in the IAM console or via AWS APIs or the AWS CLI
+Q11: What are AWS managed policies and when should I use them?
+ans 11:)AWS managed policies are created and administered by AWS and cover common use cases. Getting started, you can grant broader permissions by using the AWS managed policies that are available in your AWS account and common across all AWS accounts. Then, as you refine your requirements, you can reduce permissions by defining customer managed policies specific to your use cases with the goal of achieving least-privilege permissions. 
+Q12: What are customer managed policies and when should I use them?
+ans 12:)To grant only the permissions required to perform tasks, you can create customer managed policies that are specific to your use cases and resources. Use customer managed policies to continue refining permissions for your specific requirements
+Q13: What are inline policies and when should I use them?
+ans 13:)Inline policies are embedded in and inherent to specific IAM roles. Use inline policies if you want to maintain a strict one-to-one relationship between a policy and the identity to which it is applied. For example, you can grant administrative permissions to ensure they are not attached to other roles
+Q14: What are resource-based policies and when should I use them?
+ans 14:)Resource-based policies are permissions policies that are attached to resources. For example, you can attach resource-based policies to Amazon S3 buckets, Amazon SQS queues, VPC endpoints, and AWS Key Management Service encryption keys. For a list of services that support resource-based policies, see AWS services that work with IAM. Use resource-based policies to grant direct, cross-account access. With resource-based policies, you can define who has access to a resource and which actions they can perform with it
+Q15: What is role-based access control (RBAC)?
+ans 15:)RBAC provides a way for you to assign permissions based on a person’s job function, known outside of AWS as a role. IAM provides RBAC by defining IAM roles with permissions that align with job functions. You then can grant individuals access to assume these roles to perform specific job functions. With RBAC, you can audit access by looking at each IAM role and its attached permissions.
+
+4:- Launch your linux instance in IAMand update your machine.
+ans4): create a instnace with iam user deepesh .  reference image(920 ,921, 922)
