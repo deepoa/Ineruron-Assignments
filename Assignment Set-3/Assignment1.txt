@@ -5,7 +5,7 @@
  ans2)create three iam user and assingened in the avengers group. referecne image(913)
    
 Q3:- Define a condition in policy for expirationlike"DateGreaterThan":{"aws:CurrentTime":"2020-04-01T00:00:00Z"},"DateLessThan":{"aws:CurrentTime":"2020-06-30T23:59:59Z"}Define the span of 4 months as per your wishAssignment 
-ans3): create a policy for expiration   referecne image(914,915,916,917,918,919)
+ans3): create a policy for expiration   referecne image(914,915,916,917,918,919,923) attached to deepsh 923 image
 
 
 
