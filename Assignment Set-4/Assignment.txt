@@ -1,0 +1,12 @@
+1. What is the need of IAM?
+ans 1:)Identity Access Management (IAM) is used for security discipline that make it possible for the right entities to use the right resources. Iam control authentication and authorization , it is very first step while we we are planning to go live in the aws machine so no user can manipulte the other services , those services given to him/her only those services they can access and manipulte the things.if we have two grups in company marketing and developers so we manage the permissions with iam that only developers group can acces the ec2 not marketing and only marketing group access the cloud watch . It is very important to create a iam user while managing the things in aws server , so there is no manipulation which will lead to generate more bills and cost the company and can happen anything. 
+2. If i am a non tech person, how will you define policies inIAM.
+ans2 :) We can teach a non tech person by clicking into to the aws console all , we can give the direction that you have to got to the iam services first and click the users  on left side bar and create user and click into the policies button and give the policies accoeding to their need.
+3. Please define a scenerio in which you would like to createyour on own IAM policy.
+ans3: ) Scenerio : Suppose we have user deepesh and we have to give the polices to get the object from the s3bucket and update the object in the s3bucket in this case we can give our own custom policy .
+4. Why do we prefer not using root account?
+ans 4:)  By not using the root account, you can be relatively confident that whatever you just did, did not mess up your system's ability to operate.if we created a root user if something happens or some hackers hacks the root account it will be mess and all the information realted to that will be shared and anything dangerous happen with that and you have to bear the concequence . That's why it is prefer to not login as the root user
+5. How to revoke policy for an IAM user?
+ans 5:)we simply can remove the policy by first click on the policy and we can click on the policy checkbox and and click the remove button for revoking the policies
+6. Can a single IAM user be a part of multiple policy via groupand root? how?
+ans 6:)yes I am user can be a part of multiple policy via group root , beacuse some times the supervisor need to have to access to the multiple group for checking the things suppose devOps managers have access to all the multiple groups to check what is going on and wht is needed to be better .
