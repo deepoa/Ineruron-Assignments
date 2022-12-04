@@ -1,0 +1,61 @@
+Assignment 1 :- How to upload HTML web pages on Apache2 web server in EC-2 Instance?
+Please justify with step by step answers.
+ans 1:) Steps:=> First we have make a Ubantu Machine ready 
+        Steps:=> Then we have to update the machine.
+        Steps:=> and then we have to install the apache2 server in the ubuntu machine with (sudo apt install apache2)........
+        Steps:=> and then we have to run the systemctl cmmdn to start the apache2 server.
+        steps:=> after that we can edit some text or can make some changes to the server with tht server path . we run the systemctl cmmdn to start the apache2 server we run echo "sometext">var/www/html/index.html . > This is used for append the text .
+        and last we copy the public ip and can check in the server to see
+        result image refernce(938,939,940,941).
+Assignment 2 : Create readfile.sh in which you can read the information of PWD like size,
+permission, date time etc.
+ans2:) first we have to make a bash file with name readme.sh with this command nano readme.sh for going to the editor to execute the commands of calulating the size of PWD, permissions and date and time etc
+for checking the size we use du -h for showing the size or information about the size and for permissions we use ls -al and for date we use date cmd reference image(942,943,944)
+Assignment 3 : Take an input of name from user and print Have a great day ahead {name}
+ans 3:) first we create file greeting and then we write the have a great day with echo in bash file and $1 for the argument recieved in the file while running the file with bash greeitng.sh deepsh.image reference(945,946))
+
+Assignment 4 : Let’s take a scenario of fintech app program in which we want to have three separate
+outputs for 3 different situations:
+
+The balance is less than zero
+The balance is zero
+ The balance is above zero
+For instance, in the following program, use the if, elif, else statements to display different outputs in
+different scenarios:
+
+Use “if” condition to check if the balance is less than zero. If this condition evaluates to true, display
+the message using the echo command: “Balance is less than zero, Please add more funds else you
+will be charged penalty”.
+If the above condition does not match, then use “elif” condition to check if the balance is equal to
+zero. If it evaluates to true, display the message: Balance is zero, please add funds
+If none of the above condition matches, use the “else” condition to display the: Your balance is
+above zero.
+
+ans4): for this i have create a bashfile for scripting the image reference is (947,948)
+
+Assignment 5 : Debug and define briefly about
+
+the following program :-
+#!/bin/bash
+# Print a message about disk useage.
+
+space_free=$( df -h | awk '{ print $5 }' | sort -n | tail -n 1 | sed 's/%//' )
+case $space_free in
+[1-5]*)
+echo Plenty of disk space available
+
+[6-7]*)
+echo There could be a problem in the near future
+
+8*)
+echo Maybe we should look at clearing out old files
+
+9*)
+echo We could have a serious problem on our hands soon
+
+*)
+echo Something is not quite right here
+;;
+esac
+
+ans :5)
